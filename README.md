@@ -12,11 +12,5 @@ Ce projet est un prototype développé durant mon stage au **Digital Center d'At
 * **Frontend :** HTML5, CSS3, JavaScript
 * **IA :** Intégration d'API (DeepSeek)
 
-### Installation
-1. Cloner le projet.
-2. Installer les bibliothèques : `pip install flask requests`
-3. Ouvrir `AWB_chatbot.py` et ajouter votre clé API personnelle.
-4. Lancer l'application : `python AWB_chatbot.py`
-
----
-*Projet réalisé par Hiba Karam - Élève Ingénieure @ EMSI.*
+### Auteur
+Projet réalisé par Hiba Karam - Élève Ingénieure @ EMSI.
