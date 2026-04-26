@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = secrets.token_hex(16)
 
 API_KEY = "sk-or-v1-krmhebba"
-API_URL = "https://openrouter.ai/api/v1/chat/completions"
+API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
 def demander_a_l_ia(conversation_historique):
     headers = {
